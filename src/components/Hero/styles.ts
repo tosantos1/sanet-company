@@ -76,7 +76,7 @@ export const Container = styled.section `
     }
 
    }
-   @media (max-width:335px){
+   @media (max-width:336px){
        .btns{
            a:nth-child(1){
                padding: 1rem 1rem;

@@ -69,17 +69,14 @@ export const Container = styled.header `
     }
     .navbar-mobile {
         display: none;
-        border: 1px solid red;
         padding: 1rem;
 
         justify-content: space-between;
         align-items: center;
     }
     .logo-m {
-        border: 1px solid red;
     }
     .bx {
-        border: 1px solid black;
         width: 36px;
         height: 36px;
 

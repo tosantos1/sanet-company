@@ -7,7 +7,7 @@ export function Plans() {
             <h3>Conheça Nossos</h3>
             <h1><strong>planos</strong>net</h1>
             <div className="cards">
-                <div className="card-item-1">
+                <div className="card-item">
                     <h5>Plano Residencial</h5>
                     <h1>50</h1>
                     <h2>mega</h2>
@@ -24,7 +24,7 @@ export function Plans() {
                         <a href="">Assine Agora</a>
                     </div>
                 </div>
-                <div className="card-item-2">
+                <div className="card-item">
                     <h5>Plano Residencial</h5>
                     <h1>100</h1>
                     <h2>mega</h2>
@@ -40,7 +40,7 @@ export function Plans() {
                     <div className="btn"><a href="">Assine Agora</a></div>
                     
                 </div>
-                <div className="card-item-3">
+                <div className="card-item">
                     <h5>Plano Residencial</h5>
                     <h1>200</h1>
                     <h2>mega</h2>

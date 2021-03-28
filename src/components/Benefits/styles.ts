@@ -6,7 +6,6 @@ export const Section = styled.section `
     padding: 1rem 0rem;
     margin-top: 2rem;
 
-
     h3 {
         text-transform: uppercase;
         color: #100025;
@@ -34,7 +33,9 @@ export const Section = styled.section `
     .card-benefits {
         background: #FAF8FE;
         border-radius: 0px 0px 20px 20px;
-        
+        img {
+            width: 100%;
+        }
 
         h2 {
             background-color: none;
@@ -43,6 +44,10 @@ export const Section = styled.section `
         h2 {
             text-align: center;
             padding: 1rem 1rem;
+            text-transform: uppercase;
+
+            color: #100025;
+            font-size: 1.2rem;
         }
 
         p{
@@ -58,9 +63,20 @@ export const Section = styled.section `
         }
         p:nth-child(6){
             border-radius: 0px 0px 20px 20px;
-        }
+        }    
+    }
 
-        
+    @media (max-width: 1050px) {
+        .cards-benefits{
+            flex-direction: column;
+            padding: 1rem 1rem;
+        }
+        img {
+            width: 80%;
+        }
+        h2 { 
+            margin: 1.5rem;
+        }
     }
 
 `

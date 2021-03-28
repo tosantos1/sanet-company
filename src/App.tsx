@@ -1,3 +1,4 @@
+import { Benefits } from "./components/Benefits";
 import { Best } from "./components/Best";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
@@ -12,6 +13,7 @@ export function App() {
       <Best />
       <Plans />
       <GlobalStyle/>
+      <Benefits />
     </>
   );
 }

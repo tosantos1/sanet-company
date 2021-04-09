@@ -9,8 +9,8 @@ export function Hero(){
                     <h1>Headlines para Wireframes Hero</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra lectus sed.</p>
                     <div className="btns">
-                        <a href="">Assinar Agora</a>
-                        <a href="">Suporte</a>
+                        <a href="#plans">Assinar Agora</a>
+                        <a href="#plans">Suporte</a>
                     </div>
                 </div>
                 <div className="plans">

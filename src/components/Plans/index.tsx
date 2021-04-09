@@ -3,7 +3,7 @@ import { Container } from "./styles";
 
 export function Plans() {
     return (
-        <Container>
+        <Container id="plans">
             <h3>Conheça Nossos</h3>
             <h1><strong>planos</strong>net</h1>
             <div className="cards">
@@ -21,7 +21,7 @@ export function Plans() {
                         <h4>70,00</h4>
                     </div>
                     <div className="btn">
-                        <a href="">Assine Agora</a>
+                        <a href="#plans">Assine Agora</a>
                     </div>
                 </div>
                 <div className="card-item">
@@ -37,7 +37,7 @@ export function Plans() {
                         <p>R$</p>
                         <h4>80,00</h4>
                     </div>
-                    <div className="btn"><a href="">Assine Agora</a></div>
+                    <div className="btn"><a href="#plans">Assine Agora</a></div>
                     
                 </div>
                 <div className="card-item">
@@ -53,7 +53,7 @@ export function Plans() {
                         <p>R$</p>
                         <h4>100,00</h4>
                     </div>
-                    <div className="btn"><a href="">Assine Agora</a></div>
+                    <div className="btn"><a href="#plans">Assine Agora</a></div>
                 </div>
             </div>
         </Container>

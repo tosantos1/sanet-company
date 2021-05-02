@@ -9,7 +9,6 @@ export const Container = styled.section `
        justify-content: space-between;
        align-items: center;
        
-       
        margin-top: 1rem;
    }
    .text-btn {
@@ -51,7 +50,6 @@ export const Container = styled.section `
    }
    @media (max-width:720px){
     .hero-home{
-        display: flex;
         flex-direction: column;
         
         text-align: center;

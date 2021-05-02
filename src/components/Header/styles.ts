@@ -118,6 +118,6 @@ export const Container = styled.header `
             .navbar-mobile{
                 display: flex;
             }
-        }
+    }
 
 `

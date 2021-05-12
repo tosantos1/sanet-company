@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
     :root{
         --background: #FAF8FE;
 
@@ -58,6 +58,4 @@ export const GlobalStyle = createGlobalStyle `
         cursor: not-allowed;
     }
     
-
-
 `

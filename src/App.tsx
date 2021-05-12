@@ -5,7 +5,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Plans } from "./components/Plans";
 import { Sicons } from "./components/Sicons";
-
+import { SuportCentral } from './components/suportCentral';
 
 import { GlobalStyle } from "./styles/global";
 
@@ -16,10 +16,11 @@ export function App() {
       <Hero />
       <Best />
       <Plans />
-      <GlobalStyle/>
+      <GlobalStyle />
       <Benefits />
       <Sicons />
       <Depositions />
+      <SuportCentral />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.header `
+export const Container = styled.header`
     .menu-mobile {
         display: none;
     }
@@ -11,7 +11,6 @@ export const Container = styled.header `
         display: flex;
         justify-content: space-between;
         align-items: center;
-
         .item-2{
         }
         
@@ -38,14 +37,13 @@ export const Container = styled.header `
                 width: 0%;
                 height: 3px;
                 
-                transition: 1s ease;
+                transition: 0.2s ease;
                 
                 background-color: #FFCF15;
             }
             &:hover {
-
                  &::after{
-                width: 105%;
+                width: 100%;
             }
             }
         }
@@ -55,10 +53,11 @@ export const Container = styled.header `
             border-radius: 1rem;
             padding: 0.8rem 1.5rem;
 
-            transition: ease-in-out 1s;
+            transition: ease-in-out 0.2s;
 
             :hover {
-                    background-color: #FFCF15;
+                background-color: #FFCF15;
+            
             }
         }
     }

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.section `
+export const Container = styled.section`
    max-width: 1200px;
    margin: 0 auto;
 
@@ -8,10 +8,11 @@ export const Container = styled.section `
        display: flex;
        justify-content: space-between;
        align-items: center;
-       
+       border: 1px solid red;
        margin-top: 1rem;
    }
    .text-btn {
+       border: 1px solid red;
        h1 {
             font-size: 5rem;
        }
@@ -46,7 +47,12 @@ export const Container = styled.section `
    .plans {
        img {
            width: 100%;
+           border: 1px solid red;
        }
+   }
+   .boxPlans {
+       width:100%;
+       
    }
    @media (max-width:720px){
     .hero-home{

@@ -1,8 +1,9 @@
 import heroImg from '../../assets/plans.svg'
+import people from '../../assets/phone.svg'
 import { Container } from './styles'
 
-export function Hero(){
-    return(
+export function Hero() {
+    return (
         <Container>
             <div className="hero-home">
                 <div className="text-btn">
@@ -13,8 +14,21 @@ export function Hero(){
                         <a href="#plans">Suporte</a>
                     </div>
                 </div>
+
                 <div className="plans">
-                    <img src={heroImg} alt=""/>
+                    {/*<section className="boxPlans">
+                        <img src={people} alt="" />
+                    </section>
+                    <section className="boxPlans">
+                        <img src={people} alt="" />
+                    </section>
+                    <section className="boxPlans">
+                        <img src={people} alt="" />
+                    </section>
+                    <section className="boxPlans">
+                        <img src={people} alt="" />
+    </section>*/}
+                    <img src={heroImg} alt="" />
                 </div>
             </div>
         </Container>

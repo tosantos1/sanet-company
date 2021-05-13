@@ -4,7 +4,7 @@ export function SuportCentral() {
     return (
         <Container>
             <div id="box-suport">
-                <h1>CENTRAL DE SUPORTE</h1>
+                <h1>CENTRAL DE SUPORTEa</h1>
                 <form action="">
                     <label htmlFor="nome">Nome</label>
                     <input type="text" name="name" id="nome" />

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.section `
+export const Container = styled.section`
    max-width: 1200px;
    margin: 0 auto;
    margin-top: 4rem;
@@ -140,7 +140,7 @@ export const Container = styled.section `
             left: 0;
             bottom: -25px;
 
-            transition: ease .9s;
+            transition: ease .25s;
 
             &:hover{
                 transform: scale(1.1);

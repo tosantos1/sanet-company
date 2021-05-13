@@ -8,11 +8,9 @@ export const Container = styled.section`
        display: flex;
        justify-content: space-between;
        align-items: center;
-       border: 1px solid red;
        margin-top: 1rem;
    }
    .text-btn {
-       border: 1px solid red;
        h1 {
             font-size: 5rem;
        }
@@ -24,11 +22,11 @@ export const Container = styled.section`
    }
    .btns{
        margin-top: 2rem;
+       transition: filter 0.2s;
          a:nth-child(1){
             border: 3px solid #280063;
             color: #FFFFFF;
             background: var(--purple);
-
             border-radius: 1rem;
             padding: 1rem 2rem;
             margin-right: 1rem;
@@ -43,11 +41,13 @@ export const Container = styled.section`
 
             text-decoration: none;
         }
+        &:hover {
+            filter: brightness(1.2);
+        }
    }
    .plans {
        img {
            width: 100%;
-           border: 1px solid red;
        }
    }
    .boxPlans {
@@ -71,7 +71,6 @@ export const Container = styled.section`
         }
     }
     .btns{
-        
         align-items: center;
         text-align: center;
     }

@@ -14,23 +14,23 @@ export function InfoBar() {
                     <ul>
                         <li>
                             <h2>SAnet</h2>
-                            <a href="#">Sobre nós</a>
-                            <a href="#">Carreiras</a>
-                            <a href="#">Perguntas frequentes</a>
-                            <a href="#">Contato</a>
-                            <a href="#">Impresa</a>
+                            <a href="#plans">Sobre nós</a>
+                            <a href="#plans">Carreiras</a>
+                            <a href="#plans">Perguntas frequentes</a>
+                            <a href="#plans">Contato</a>
+                            <a href="#plans">Impresa</a>
                         </li>
                         <li>
                             <h2>Produtos</h2>
-                            <a href="#">SA Familia</a>
-                            <a href="#">SA Master</a>
-                            <a href="#">SA Ultra</a>
+                            <a href="#plans">SA Familia</a>
+                            <a href="#plans">SA Master</a>
+                            <a href="#plans">SA Ultra</a>
                         </li>
                         <li>
                             <h2>Fale com a gente</h2>
-                            <a href="#">0800 608 6236</a>
-                            <a href="#">meajuda@sanet.com.br</a>
-                            <a href="#">Atendimento 24h</a>
+                            <a href="#plans">0800 608 6236</a>
+                            <a href="#plans">meajuda@sanet.com.br</a>
+                            <a href="#plans">Atendimento 24h</a>
                         </li>
                     </ul>
                 </section>

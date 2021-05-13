@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 5rem auto;
     #box-suport{
         margin-top:1rem;
         display: grid;

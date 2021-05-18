@@ -42,7 +42,7 @@ export function InfoBar() {
                     </button>
                     <button>
                         <img src={GPlay} alt="playstore" />
-                        <p>Download via <p>Google Play</p></p>
+                        <p>Download via <p>Play Store</p></p>
                     </button>
                 </section>
                 <div id="line"></div>

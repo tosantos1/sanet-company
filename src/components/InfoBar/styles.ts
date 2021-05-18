@@ -6,7 +6,6 @@ margin-top: 5rem;
 `;
 
 export const Content = styled.div`
-max-width: 100%;
 margin: 0 auto;
 padding: 7rem 0;
 
@@ -38,11 +37,11 @@ ul {
 
 #APP {
     display: flex;
+    margin-left: 35%;
     margin-right: 20%;
-    margin-left: 50%;
     position: relative;
     bottom: 2rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: #FBF9FC;
     align-items: center;
 
@@ -115,6 +114,65 @@ ul {
         img {
             margin-left: 1.5rem;
         }
+    }
+}
+
+@media (max-width: 1080px){
+    #APP {
+        flex-direction: column;
+        bottom: 0;
+        margin-left: 16%;
+        text-align: center;
+        justify-content: center;
+        
+        button {
+            margin-top: 1rem;
+            margin-left:5%;
+            padding: 0 0.3rem;
+        }
+    }
+
+    ul {
+        display: grid;
+        margin: 1rem auto;
+    }
+
+    #lastBar {
+        flex-direction: column;
+        
+        div {
+            margin-top: 1rem;
+        }
+    }
+
+    #lastBarLogo {
+        flex-direction: column;
+
+        img {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            p {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    #socialMedias {
+        flex-direction: column;
+        
+        img {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    #line {
+        margin-bottom: 0;
+    }
+
+    * {
+        font-size: 93.75%;
     }
 }
 `;

@@ -7,11 +7,13 @@ export const Container = styled.section`
         margin-top:1rem;
         display: grid;
         text-align: center;
-        h1{
+
+        h1 {
             color: var(--purple-dark);
             font-weight: 700;
-            font-size: 48px;
+            font-size: 3rem;
         }
+
         form{
             display: grid;
             padding: 1.5rem;
@@ -23,21 +25,22 @@ export const Container = styled.section`
                     margin-top:0;
                 }
                 margin: 3rem auto 0;
-                border: 1.6px solid var(--purple-light);
+                border: 0.1rem solid var(--purple-light);
                 border-radius: 20px;
                 background: #FBFAFF;
                 padding: 1rem 0.2rem;
                 width: 100%;
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 400;
                 color: var(--gray-dark);
             }
+
             #submitForms{
                 width:30%;
                 padding:0.7rem;
                 background: var(--purple-light);
                 border-radius: 16px;
-                font-size: 18px;
+                font-size: 1.125rem;
                 color: #F3F0F5;
                 :hover{
                     cursor: pointer;
@@ -45,13 +48,44 @@ export const Container = styled.section`
                     transition: 0.2;
                 }
             }
-            textarea{
+
+            #msg{
                 margin: 3rem auto 0;
-                resize: none;
-                border: 1.6px solid var(--purple-light);
-                border-radius: 20px;
-                padding:0.35rem;
+
+                textarea {
+                    width: 100%;
+                    border: 0.1rem solid var(--purple-light);
+                    border-radius: 20px;;
+                    resize: none;
+                    padding: 0.35rem;
+                }
             }
         }
+    }
+
+    @media(max-width: 1080px){
+        #box-suport{
+            h1{
+                font-size: 93.75%;
+            }
+            
+            form {
+                input {
+                    font-size: 93.75%;
+                    padding: 0.3rem;
+                }
+
+                #submitForms {
+                    width: 40%;
+                    font-size: 93.75%;
+                }
+
+                #msg {
+                    textarea {
+                        font-size: 93.75%;
+                    }
+                }
+            }
+        }       
     }
 `

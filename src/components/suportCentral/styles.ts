@@ -62,7 +62,6 @@ export const Container = styled.section`
             }
         }
     }
-
     @media(max-width: 1080px){
         #box-suport{
             h1{

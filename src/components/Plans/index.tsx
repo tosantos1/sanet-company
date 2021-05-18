@@ -38,14 +38,14 @@ export function Plans() {
                         <h4>80,00</h4>
                     </div>
                     <div className="btn"><a href="#plans">Assine Agora</a></div>
-                    
+
                 </div>
                 <div className="card-item">
                     <h5>Plano Residencial</h5>
                     <h1>200</h1>
                     <h2>mega</h2>
                     <h3>sa ultra</h3>
-                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum aaa</p>
                     <p>Lorem Ipsum</p>
                     <p>Lorem Ipsum</p>
                     <p>Lorem Ipsum</p>

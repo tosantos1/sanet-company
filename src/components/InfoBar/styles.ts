@@ -132,11 +132,6 @@ ul {
         }
     }
 
-    ul {
-        display: grid;
-        margin: 1rem auto;
-    }
-
     #lastBar {
         flex-direction: column;
         
@@ -146,8 +141,6 @@ ul {
     }
 
     #lastBarLogo {
-        flex-direction: column;
-
         img {
             margin-bottom: 1rem;
         }
@@ -160,7 +153,6 @@ ul {
     }
 
     #socialMedias {
-        flex-direction: column;
         
         img {
             margin-bottom: 1.5rem;

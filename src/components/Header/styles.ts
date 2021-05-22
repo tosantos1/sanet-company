@@ -11,8 +11,6 @@ export const Container = styled.header`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .item-2{
-        }
         
         .navlist-desktop{
             display: flex;
@@ -21,6 +19,7 @@ export const Container = styled.header`
             padding: 1rem 1.4rem;
             list-style: none;
         }
+        
         .navlink-desktop {
             text-decoration: none;
             margin: 0.7rem 1.3rem;
@@ -69,11 +68,13 @@ export const Container = styled.header`
     .navbar-mobile {
         display: none;
         padding: 1rem;
-
+        
         justify-content: space-between;
         align-items: center;
     }
-    .logo-m {
+    button {
+        border: 0;
+        background: transparent;
     }
     .bx {
         width: 36px;
@@ -117,6 +118,12 @@ export const Container = styled.header`
             .navbar-mobile{
                 display: flex;
             }
-    }
+    } 
 
+`
+export const Content = styled.form`
+
+ul {
+    margin: auto;
+}
 `

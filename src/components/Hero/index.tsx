@@ -11,7 +11,7 @@ export function Hero() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra lectus sed.</p>
                     <div className="btns">
                         <a href="#plans">Assinar Agora</a>
-                        <a href="#plans">Suporte</a>
+                        <a href="#sup">Suporte</a>
                     </div>
                 </div>
 

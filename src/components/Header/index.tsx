@@ -1,16 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
 import logoImg from '../../assets/logo.svg'
 import logotipoImg from '../../assets/logotipo.svg'
-import { Container } from './styles'
+import { Container, Content } from './styles'
 
-export function Header(){
+interface HeaderProps {
+    onOpenModal: () => void;
+}
+
+export function Header({ onOpenModal }: HeaderProps) {
+
     return (
         <Container>
             {/* HEADER DESKTOP */}
             <nav className="navbar-desktop">
                 <div className="item-1">
-                    <a href="#plans"><img src={logoImg} alt="logo"/></a>
+                    <a href="#plans"><img src={logoImg} alt="logo" /></a>
                 </div>
                 <div className="item-2">
                     <ul className="navlist-desktop">
@@ -18,7 +22,7 @@ export function Header(){
                         <li><a href="#plans" className="navlink-desktop">Vantagens</a></li>
                         <li><a href="#plans" className="navlink-desktop">Planos</a></li>
                         <li><a href="#plans" className="navlink-desktop">Contato</a></li>
-                        <li><a href="#plans" className="navlink-desktop">Assinante</a></li> 
+                        <li><a href="#plans" className="navlink-desktop">Assinante</a></li>
                     </ul>
                 </div>
             </nav>
@@ -26,9 +30,9 @@ export function Header(){
             {/* HEADER MOBILE */}
             <nav className="navbar-mobile">
                 <div className="logo-m">
-                    <a href="#plans"><img src={logotipoImg} alt="logo"/></a>
+                    <a href="#plans"><img src={logotipoImg} alt="logo" /></a>
                 </div>
-                <div className="bx" id="bx"></div>
+                <button type="button" onClick={onOpenModal} className="bx" id="bx"></button>
             </nav>
 
             {/* HEADER MENU */}
@@ -38,12 +42,9 @@ export function Header(){
                     <li><a href="#plans" className="navlink-mobile">Vantagens</a></li>
                     <li><a href="#plans" className="navlink-mobile">Planos</a></li>
                     <li><a href="#plans" className="navlink-mobile">Contato</a></li>
-                    <li><a href="#plans" className="navlink-mobile">Assinante</a></li>  
+                    <li><a href="#plans" className="navlink-mobile">Assinante</a></li>
                 </ul>
             </nav>
-
-            
-
         </Container>
     )
 }

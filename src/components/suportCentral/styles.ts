@@ -63,26 +63,14 @@ export const Container = styled.section`
         }
     }
     @media(max-width: 1080px){
-        #box-suport{
-            h1{
-                font-size: 93.75%;
-            }
-            
+        #box-suport{     
             form {
+                width:80%;
                 input {
-                    font-size: 93.75%;
                     padding: 0.3rem;
                 }
-
                 #submitForms {
-                    width: 40%;
-                    font-size: 93.75%;
-                }
-
-                #msg {
-                    textarea {
-                        font-size: 93.75%;
-                    }
+                    width: 35%;
                 }
             }
         }       
